@@ -27,3 +27,4 @@ for tweet in public_tweets:
     analysis = TextBlob(tweet.text)
     # show sentiment analysis
     print(analysis.sentiment)
+    print("\n")
