@@ -8,8 +8,8 @@ This is the code for the Twitter Sentiment Analyzer challenge for 'Learn Python 
 
 ## Dependencies
 
-    - tweepy (http://www.tweepy.org/)
-    - textblob (https://textblob.readthedocs.io/en/dev/)
+   - [tweepy](http://www.tweepy.org/)
+   - [textblob](https://textblob.readthedocs.io/en/dev/)
 
 Install missing dependencies using pip
 
@@ -17,4 +17,4 @@ Install missing dependencies using pip
 
 Once you have your dependencies installed via pip, run the script in terminal via
 
-python sentiment_analysis.py
+    python sentiment_analysis.py
