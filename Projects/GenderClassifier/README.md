@@ -3,7 +3,7 @@
 ## Overview
 
 Building a gender classifier using the sci-kit learn library.
-We will be using a made up dataset.  
+Created a made up dataset. 
 
 ## Steps 
 
