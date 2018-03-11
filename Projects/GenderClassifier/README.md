@@ -15,7 +15,7 @@ We will be using a made up dataset.
 
 - or conda install -c anaconda scikit-learn
 
-3.  run GenderClassifier.py
+3.  run gender_classifier.py
 
 That's it.
 
