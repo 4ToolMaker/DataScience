@@ -1,4 +1,4 @@
-Recommender System Challenge by @Sirajology on Youtube.
+# Recommender Systems
 
 ## Overview
 
@@ -6,9 +6,9 @@ This is the code for the Recommender System challenge for 'Learn Python for Data
 
 ## Dependencies
 
-    numpy (http://www.numpy.org/)
-    scipy (https://www.scipy.org/)
-    lightfm (https://github.com/lyst/lightfm)
+   - [numpy](http://www.numpy.org/)
+   - [scipy](https://www.scipy.org/)
+   - [lightfm](https://github.com/lyst/lightfm)
 
 Install missing dependencies using pip
 
