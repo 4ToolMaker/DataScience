@@ -1,22 +1,28 @@
-# Gender Classification using scikit-learn
+# Gender Classification 
 
 ## Overview
 
-Building a gender classifier using the sci-kit learn library.
-Created a made up dataset. 
+This is the code for the gender classification challenge for 'Learn Python for Data Science #1' by @Sirajology on YouTube. The code uses the scikit-learn machine learning library to train a decision tree on a small dataset of body metrics (height, width, and shoe size) labeled male or female. Then we can predict the gender of someone given a novel set of body metrics.
 
-## Steps 
+## Dependencies
 
-1. Set up environment
+   - [Scikit-learn](http://scikit-learn.org/stable/install.html)
+   - numpy (pip install numpy)
+   - scipy (pip install scipy)
 
-2. Install dependencies via pip or conda
+Install missing dependencies using pip
 
-- pip install -U scikit-learn 
+## Usage
 
-- or conda install -c anaconda scikit-learn
+Once you have your dependencies installed via pip, run the script in terminal via
 
-3.  run gender_classifier.py
+    python gender_classifier.py
 
-That's it.
+## Challenge
+
+Find 3 more classifiers from the sci-kit learn documentation and add them to the demo.py code. Train them on the same dataset and compare their results. You can determine accuracy by trying to predict testing you trained classifier on samples from the training data and see if it correctly classifies it. Push your code repository to github then post it in the comments. I'll give the winner a shoutout a week from now!
+
+
+# Credits
 
 
