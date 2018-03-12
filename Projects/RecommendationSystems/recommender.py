@@ -5,12 +5,14 @@
 - (https://gist.github.com/entaroadun/1653794)  and take a look at the
 - fetch_movielens method to see what it's doing"""
 
+
+# importing our dependencies
 import numpy as np
 from lightfm.datasets import fetch_movielens
 from lightfm import LightFM
 
 
-# fetch data and format it
+# fetch data and format it optional parameter min_rating of 4.0 or higher
 data = fetch_movielens(min_rating=4.0)
 
 # print training and testing data
@@ -22,9 +24,16 @@ print(repr(data['test']))
 # models), compare results, print results for the best one.
 # Available loss functions are warp, logistic, bpr, and warp-kos.
 
-# create model
+# create our model with a single parameter loss == model prediction and our
+# desired output: we want to minimize it during trainning so our model
+# will get more accurate over time.
+# the loss we will choose is warp == weigthed approximae rank pairwise
+# it uses the gradient descent algorithm to iteratively find the weigths that
+# improve our decision over time
+# it takes in consideration both the user past ratings, content based and
+# similarly users ratings
 model = LightFM(loss='warp')
-# train model
+# train model with 30 epochs and 2 parallel computations
 model.fit(data['train'], epochs=30, num_threads=2)
 
 
@@ -62,4 +71,5 @@ def sample_recommendation(model, data, user_ids):
             print("        %s" % x)
 
 
+# calling our model data and three random user's id as the parameters
 sample_recommendation(model, data, [3, 25, 450])
