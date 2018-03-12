@@ -1,4 +1,4 @@
-# Predicting_stock_prices Stock Prediction Challenge by @Sirajology on Youtube.
+# Predicting Stock Prices 
 
 ## Overview
 
@@ -8,11 +8,11 @@ There are two scripts. demo.py is the code in the video and challenge.py is a te
 
 ## Dependencies
 
-    numpy (http://www.numpy.org/)
-    tweepy (http://www.tweepy.org)
-    csv (https://pypi.python.org/pypi/csv)
-    textblob (https://textblob.readthedocs.io/en/dev/)
-    keras (https://keras.io)
+   - [numpy](http://www.numpy.org/)
+   - [tweepy](http://www.tweepy.org)
+   - [Fast CSV Parser](https://pypi.python.org/pypi/csv)
+   - [textblob](https://textblob.readthedocs.io/en/dev/)
+   - [keras](https://keras.io)
 
 Install missing dependencies using pip
 
